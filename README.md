@@ -15,6 +15,8 @@ When these lines are passed through ReLU activation functions, then multiplied b
 
 ![mr1w](images/manual_relu_1_w.png)
 
+Summing `w0 + w1*ReLU(h1) + w2*ReLU(h2) + w3*ReLU(h3)` we get y_pred.
+
 ![mr1y](images/manual_relu_1_y.png)
 
 
