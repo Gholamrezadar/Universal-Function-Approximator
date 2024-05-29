@@ -21,6 +21,8 @@ Summing `w0 + w1*ReLU(h1) + w2*ReLU(h2) + w3*ReLU(h3)` we get y.
 
 It's a piecewise linear function constructed from 4 segments (black curve). Dashed lines show the x in which each neuron crossed the x-axis. these points create the joints in our resulting function.
 
+**3 neurons, 3 joints, 4 segments.**
+
 
 ## Manual Shallow NN (Another Function)
 ![mr2](images/manual_relu_2.png)
