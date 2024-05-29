@@ -33,8 +33,6 @@ It's a piecewise linear function constructed from 4 segments (black curve). Dash
 
 As we can see, by changing the parameters(10 in this case) we can model any function that can be constructed using 4(3+1) linear segments.
 
-In the next part, we try to approximate sin(x) using a shallow neural network but this time we update the weights using gradient descent instead of manually changing them.
-
 
 ## Identity instead of ReLU
 Shows the importance of non-linearity
@@ -46,6 +44,8 @@ Shows the importance of non-linearity
 ![miy](images/manual_identity_1_y.png)
 
 **without non-linearity this model is just another line!** (properties of linear functions)
+
+In the next part, we try to approximate sin(x) using a shallow neural network but this time we update the weights using gradient descent instead of manually changing them.
 
 ## Approximating Sine
 
