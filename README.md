@@ -9,7 +9,7 @@ Read this book for more information: [Understanding Deep Learning](https://udlbo
 ## Manual Shallow NN
 Here you can see that each neuron models a line. 
 
-When these lines are passed through ReLU activation functions, then multiplied by some weights, and finally summed, they can create a piecewise linear function. **ANY PIECEWISE LINEAR FUNCTION!** (with limited accuracy that is)
+When these lines are passed through ReLU activation functions, then multiplied by some weights, and finally summed, they can create a piecewise linear function. **ANY PIECEWISE LINEAR FUNCTION!**
 
 ![mr1](images/manual_relu_1.png)
 
