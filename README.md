@@ -7,11 +7,16 @@ In this educational project, I'm going to explore the capabilities of shallow ne
 Read this book for more information: [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 ## Manual Shallow NN
+Here you can see that each neuron models a line. 
+
+When these lines are passed through ReLU activation functions, then multiplied by some weights, and finally summed, they can create a piecewise linear function. **ANY PIECEWISE LINEAR FUNCTION!** (with limited accuracy that is)
+
 ![mr1](images/manual_relu_1.png)
 
 ![mr1w](images/manual_relu_1_w.png)
 
 ![mr1y](images/manual_relu_1_y.png)
+
 
 ## Manual Shallow NN (Another Function)
 ![mr2](images/manual_relu_2.png)
@@ -19,6 +24,10 @@ Read this book for more information: [Understanding Deep Learning](https://udlbo
 ![mr2w](images/manual_relu_2_w.png)
 
 ![mr2y](images/manual_relu_2_y.png)
+
+As we can see, by changing the parameters(10 in this case) we can model any function that can be constructed using 4(3+1) linear segments.
+
+In the next part, we try to approximate sin(x) using a shallow neural network but this time we update the weights using gradient descent instead of manually changing them.
 
 
 ## Identity instead of ReLU
@@ -29,6 +38,8 @@ Shows the importance of non-linearity
 ![miw](images/manual_identity_1_w.png)
 
 ![miy](images/manual_identity_1_y.png)
+
+**without non-linearity this model is just another line!** (properties of linear functions)
 
 ## Approximating Sine
 
